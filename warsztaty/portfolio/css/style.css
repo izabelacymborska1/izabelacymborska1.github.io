@@ -1,0 +1,137 @@
+/*GENERAL STYLE*/
+
+span {
+    color: #1ac056;
+}
+
+section {
+    padding: 0 80px 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #291f1a;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENETAL STYLES- END*/
+
+/*NAVIGATION - START*/
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+}
+
+nav ul > li {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 20px 30px;
+}
+
+nav a {
+    font-weight: 900;
+    color: #1ac056;
+
+}
+
+nav a:hover {
+    color: #291f1a;
+}
+
+
+/*NAVIGATION- END*/
+
+/*HEADER START*/
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#main-header .header-content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-header .header-content h1 {
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+#main-header .header-content span {
+    font-weight: 700;
+
+}
+
+#main-header .header-content h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0;
+
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 15px;
+}
+
+#about article {
+    width: 50%;
+    float: left;
+}
+
+/*HEADER END*/
+
+/*SKILLS START*/
+
+#skills p, #skills .skills-icons { 
+    text-align: center;
+       
+}
+
+#skills .skills-icons .skills-icons-item {
+    display: inline-block;
+}
+
